@@ -1,7 +1,6 @@
 package spittr.service.impl;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -14,8 +13,13 @@ import org.springframework.stereotype.Service;
 import spittr.entity.Spittle;
 import spittr.service.SpittleService;
 
+/**
+ * 
+ * @author mingqiu
+ *
+ */
 @Service
-public class MySpittleServiceImp implements SpittleService {
+public class MySpittleServiceImpl implements SpittleService {
 	
 	Map<Long, Spittle> spittles = new HashMap<Long, Spittle>();
 	List<Spittle> sortedSpittles = new ArrayList<Spittle>();

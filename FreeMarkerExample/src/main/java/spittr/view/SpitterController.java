@@ -16,7 +16,11 @@ import org.springframework.web.multipart.MultipartFile;
 
 import spittr.entity.Spitter;
 import spittr.service.SpitterService;
-
+/**
+ * 
+ * @author mingqiu
+ *
+ */
 @Controller
 @RequestMapping("/spitter")
 public class SpitterController  {

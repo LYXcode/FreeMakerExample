@@ -23,6 +23,11 @@ import org.springframework.test.web.servlet.MockMvc;
 import spittr.entity.Spitter;
 import spittr.service.SpitterService;
 
+/**
+ * 
+ * @author mingqiu
+ *
+ */
 @RunWith(SpringRunner.class)
 @WebMvcTest(SpitterController.class)
 public class SpitterControllerTest {

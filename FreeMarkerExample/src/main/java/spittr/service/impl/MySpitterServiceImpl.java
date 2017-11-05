@@ -10,6 +10,11 @@ import org.springframework.stereotype.Service;
 import spittr.entity.Spitter;
 import spittr.service.SpitterService;
 
+/**
+ * 
+ * @author mingqiu
+ *
+ */
 @Service("mySpitterService")
 public class MySpitterServiceImpl implements SpitterService {
 	
