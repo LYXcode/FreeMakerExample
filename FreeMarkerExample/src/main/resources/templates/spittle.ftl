@@ -1,9 +1,10 @@
+<#assign base=request.contextPath />
 <html>
   <head>
     <title>Spitter</title>
     <link rel="stylesheet" 
           type="text/css" 
-          href="style.css"></link>
+          href="${base}/style.css"></link>
   </head>
   <body>
     <div id="header">
@@ -14,7 +15,7 @@
       <div class="spittleView">
         <div class="spittleMessage" >${spittle.message}</div>
         <div>
-          <span class="spittleTime" >${(spittle.time)?string("yyyy-MM-dd")}</span>
+          <span class="spittleTime" >${(spittle.time)?string("yyyy-MM-dd-hh:mm:ss")}</span>
         </div>
       </div>
     </div>

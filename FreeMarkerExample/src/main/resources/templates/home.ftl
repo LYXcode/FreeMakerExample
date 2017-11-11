@@ -1,9 +1,10 @@
+<#assign base=request.contextPath />
 <html>
   <head>
     <title>Spitter</title>
     <link rel="stylesheet" 
           type="text/css" 
-          href="style.css"></link>
+          href="${base}/style.css"></link>
   </head>
   <body>
     <div id="header">
@@ -13,7 +14,7 @@
     <div id="content">
       <h1>Welcome to Spitter</h1>
   
-      <a href="/spittles">Spittles</a> | 
+      <a href="/spittles">Spittles</a>
       <a href="/spitter/register">Register</a>
       
       <br/>      
